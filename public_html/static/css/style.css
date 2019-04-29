@@ -10,8 +10,9 @@ body{margin: 0;}
 
 .header{box-sizing: border-box;height:1.18rem;padding:.24rem .24rem .24rem 1.1rem;background: rgba(0,0,0,1);font-size: 0;position: relative;}
 .header .logo{position: absolute;top: .24rem;left: .24rem;width:.7rem;height: .7rem;}
-.header h3{display: inline-block;font-size: .36rem;color:#FFFFFF;line-height: .44rem;margin: 0;}
-.header p{display: inline-block;font-size: .16rem;color: #e6e6e6;line-height: .34rem;margin: 0;}
+.header .text-box{display: inline-block}
+.header h3{font-size: .36rem;color:#FFFFFF;line-height: .44rem;margin: 0}
+.header p{font-size: .16rem;color: #e6e6e6;line-height: .34rem;margin: 0}
 .header .btn-download{float: right;width: 1.6rem;height: .58rem;line-height:.58rem;margin: .06rem 0;text-align: center;font-size: .24rem;color: #FFFFFF;background: #406ff6;border-radius: .08rem}
 
 .banner{height: 5.4rem;background: url(../image/bg.png) center center/100% 100%;overflow: hidden}
@@ -46,3 +47,5 @@ body{margin: 0;}
 .special .first p{text-align: right}
 .special .first img:last-of-type{margin-right:0}
 .special .second img:first-of-type{margin-left:0}
+
+.is-wechat{position: fixed;top: 0;right: 0;bottom:0;left: 0;display: none;background: url(../image/wechat_sheet.png) no-repeat center center/100% 100%}

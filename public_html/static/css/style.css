@@ -13,7 +13,7 @@ body{margin: 0;}
 .header .text-box{display: inline-block}
 .header h3{font-size: .36rem;color:#FFFFFF;line-height: .44rem;margin: 0}
 .header p{font-size: .16rem;color: #e6e6e6;line-height: .34rem;margin: 0}
-.header .btn-download{float: right;width: 1.6rem;height: .58rem;line-height:.58rem;margin: .06rem 0;text-align: center;font-size: .24rem;color: #FFFFFF;background: #406ff6;border-radius: .08rem}
+.header .btn-download{float: right;width: 1.6rem;height: .58rem;line-height:.58rem;margin: .06rem 0;text-align: center;font-size: .24rem;color: #FFFFFF;background: #406ff6;border-radius: .08rem;cursor: pointer}
 
 .banner{height: 5.4rem;background: url(../image/bg.png) center center/100% 100%;overflow: hidden}
 .banner .logo{display: block;width: 2rem;height: 2rem;margin:1.02rem auto .84rem;}

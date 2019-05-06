@@ -49,3 +49,4 @@ body{margin: 0;}
 .special .second img:first-of-type{margin-left:0}
 
 .is-wechat{position: fixed;top: 0;right: 0;bottom:0;left: 0;display: none;background: url(../image/wechat_sheet.png) no-repeat center center/100% 100%}
+a[title='站长统计']{display: none}

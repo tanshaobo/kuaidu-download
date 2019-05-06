@@ -7,7 +7,7 @@ btnDownLoad.onclick = function () {
   if (WeChatReg) {
     isWeChat.style.display = 'block'
   } else {
-    window.location.href = 'http://upld.17k.ren/common/apk/kuaidu_3_3_7_web_0422_1.apk'
+    window.location.href = 'http://upld.17k.ren/common/apk/kuaidu_3_3_7_fenxiang_0506_1.apk'
   }
 }
 isWeChat.onclick = function () {

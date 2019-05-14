@@ -15,9 +15,11 @@ body{margin: 0;}
 .header p{font-size: .16rem;color: #e6e6e6;line-height: .34rem;margin: 0}
 .header .btn-download{float: right;width: 1.6rem;height: .58rem;line-height:.58rem;margin: .06rem 0;text-align: center;font-size: .24rem;color: #FFFFFF;background: #406ff6;border-radius: .08rem;cursor: pointer}
 
-.banner{height: 5.4rem;background: url(../image/bg.png) center center/100% 100%;overflow: hidden}
+.banner{height: 7.4rem;background: url(../image/bg.png) center center/100% 100%;overflow: hidden}
 .banner .logo{display: block;width: 2rem;height: 2rem;margin:1.02rem auto .84rem;}
 .banner .slogan{display: block;width: 4.43rem;height: 1.06rem;margin: auto;}
+.banner .Android-download{display: block;width: 2.4rem;height: 0.78rem;line-height: 0.78rem;margin: .6rem auto .06rem;text-align: center;font-size: .26rem;color: #FFFFFF;background: #406ff6;border-radius: .08rem;cursor: pointer;}
+.banner .Android-download:before{content:'';display: inline-block;width: .36rem;height: .36rem;margin-right: .12rem;vertical-align: middle;background: url(../image/Android.png) no-repeat center center/100% 100%}
 
 .guide{display: block;width:.46rem;height: .53rem;margin: .16rem auto .32rem;}
 
